@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProChat", "ProChat.csproj", "{FD270C1F-D747-4CA5-95A7-F95708D899C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProChatServer", "..\ProChatServer\ProChatServer.csproj", "{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "..\ProChatServer\Server.csproj", "{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

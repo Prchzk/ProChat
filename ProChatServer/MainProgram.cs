@@ -2,9 +2,9 @@
 using System.Net;
 using System.Net.Sockets;
 
-namespace ProChatServer
+namespace Server
 {
-    class Program
+    class MainProgram
     {
         static TcpListener _listener;
 

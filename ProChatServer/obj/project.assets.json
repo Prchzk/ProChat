@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\ProChatServer.csproj",
-      "projectName": "ProChatServer",
-      "projectPath": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\ProChatServer.csproj",
+      "projectUniqueName": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\Server.csproj",
+      "projectName": "Server",
+      "projectPath": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\Server.csproj",
       "packagesPath": "C:\\Users\\Prochazka\\.nuget\\packages\\",
       "outputPath": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\obj\\",
       "projectStyle": "PackageReference",

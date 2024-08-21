@@ -98,7 +98,8 @@
 
                 <StackPanel Orientation="Horizontal">
                     <TextBox Height="20" Width="100"
-                             Margin="10,0,0,0"/>
+                             Margin="10,0,0,0"
+                             Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"/>
 
                     <Button Height="20" Width="70"
                             Content="Connect"
@@ -125,7 +126,7 @@
                 <Grid HorizontalAlignment="Stretch"
                       Margin="8">
 
-                    <Label Content="@Username"
+                    <Label Content="{Binding SelectedContact.Username}"
                            Foreground="White"
                            FontWeight="Bold"
                            Margin="5,0,5,0"
@@ -133,7 +134,7 @@
 
                     <StackPanel Orientation="Horizontal"
                                 HorizontalAlignment="Right">
-
+                        <!--
                         <Image Width="20" Height="30"
                                RenderOptions.BitmapScalingMode="Fant"
                                Margin="5,0,5,0"
@@ -143,11 +144,12 @@
                                RenderOptions.BitmapScalingMode="Fant"
                                Margin="5,0,5,0"
                                Source="./Icons/camera.png"/>
+                        -->
 
                     </StackPanel>
                 </Grid>
             </Border>
-
+            <!--změnit na Messages -> 41:11-->
             <ListView ItemsSource="{Binding SelectedContact.Messages}"
                       Background="Transparent"
                       BorderThickness="0"
@@ -171,7 +173,7 @@
                             HorizontalAlignment="Right"
                             Grid.Column="1"
                             Margin="0,0,16,0">
-                    
+                    <!--
                     <Image Source="./Icons/plus.png"
                            Width="20" Height="20"
                            RenderOptions.BitmapScalingMode="Fant"
@@ -181,7 +183,7 @@
                            Width="20" Height="20"
                            RenderOptions.BitmapScalingMode="Fant"
                            Margin="5,5,16,0"/>
-
+                    -->
                 </StackPanel>
             </Grid>
 

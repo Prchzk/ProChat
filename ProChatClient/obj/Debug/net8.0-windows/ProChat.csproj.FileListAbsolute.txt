@@ -60,3 +60,4 @@ D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\refint\P
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.pdb
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.genruntimeconfig.cache
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ref\ProChat.dll
+D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.sourcelink.json

@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace ProChat.MVVM.ViewModel
 {
@@ -20,7 +21,6 @@ namespace ProChat.MVVM.ViewModel
         public RelayCommand SendCommand { get; set; }
 
         private ContactModel _selectedContact;
-
         public ContactModel SelectedContact
         {
             get { return _selectedContact; }
@@ -32,7 +32,6 @@ namespace ProChat.MVVM.ViewModel
         }
    
         private string _message;
-
         public string Message
         {
             get { return _message; }
@@ -43,15 +42,24 @@ namespace ProChat.MVVM.ViewModel
             }
         }
 
+        public string Username { get; set; }
         private Server _server;
+
         public MainViewModel()
         {
             Messages = new ObservableCollection<MessageModel>();
             Contacts = new ObservableCollection<ContactModel>();
 
-            _server = new Server(); 
-            ConnectToServerCommand = new RelayCommand(o => _server.ConnectToServer());
+            _server = new Server();
+            _server.connectedEvent += UserConnected;
+            _server.msgReceivedEvent += MessageReceived;
+            _server.userDisconnectEvent += RemoveUser;
 
+            ConnectToServerCommand = new RelayCommand(o => _server.ConnectToServer(Username), o => !string.IsNullOrEmpty(Username));
+
+            SendCommand = new RelayCommand(o => _server.SendMessageToServer(Message), o => !string.IsNullOrEmpty(Message));
+
+            /*
             SendCommand = new RelayCommand(o =>
             {
                 Messages.Add(new MessageModel
@@ -62,7 +70,8 @@ namespace ProChat.MVVM.ViewModel
 
                 Message = "";
             });
-
+            */
+            /*
             Messages.Add(new MessageModel
             {
                 Username = "Allison",
@@ -119,6 +128,41 @@ namespace ProChat.MVVM.ViewModel
                     ImageSource = "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp",
                     Messages = Messages
                 });
+            }
+            */
+        }
+
+        private void RemoveUser()
+        {
+            var uid = _server.PacketReader.ReadMessage();
+            var user = Contacts.Where(x => x.UID == uid).FirstOrDefault();
+            Application.Current.Dispatcher.Invoke(() => Contacts.Remove(user));
+        }
+
+        private void MessageReceived()
+        {
+            var msg = _server.PacketReader.ReadMessage();
+            //Application.Current.Dispatcher.Invoke(() => Messages.Add(msg));
+            Messages.Add(new MessageModel
+            {
+                Message = msg,
+                FirstMessage = false
+            });
+
+            Message = "";
+        }
+
+        private void UserConnected()
+        {
+            var user = new ContactModel
+            {
+                Username = _server.PacketReader.ReadMessage(),
+                UID = _server.PacketReader.ReadMessage()
+            };
+
+            if (!Contacts.Any(x => x.UID == user.UID))
+            {
+                Application.Current.Dispatcher.Invoke(() => Contacts.Add(user));
             }
         }
     }

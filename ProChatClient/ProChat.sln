@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProChat", "ProChat.csproj", "{FD270C1F-D747-4CA5-95A7-F95708D899C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProChatServer", "..\ProChatServer\ProChatServer.csproj", "{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD270C1F-D747-4CA5-95A7-F95708D899C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD270C1F-D747-4CA5-95A7-F95708D899C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD270C1F-D747-4CA5-95A7-F95708D899C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD270C1F-D747-4CA5-95A7-F95708D899C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DD2D3C5-15BA-465B-92D3-8FC1AA4A4C9C}
+	EndGlobalSection
+EndGlobal

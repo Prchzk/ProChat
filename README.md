@@ -1,8 +1,10 @@
 # ProChat
 First C#/.NET WPF application test. 
+Local chat app client and server.
+Done from a YT tutorials as a learning example project.
 
-Chat app client and server.
+Currently in a functional state. Design update possible in the future.
 
-Done from a YT tutorials as a learning project.
-
-Currently not working.
+1. Run the server
+2. Open multiple clients
+3. Chat with.. well.. yourself

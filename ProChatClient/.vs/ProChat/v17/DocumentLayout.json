@@ -7,38 +7,40 @@
       "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\mvvm\\model\\contactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:mvvm\\model\\contactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\mvvm\\model\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:mvvm\\model\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}|..\\ProChatServer\\Server.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatserver\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D83E8E2C-6D01-4A86-AEDA-6A97C16454DD}|..\\ProChatServer\\Server.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatserver\\mainprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\net\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:net\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\net\\io\\packetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:net\\io\\packetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\net\\io\\packetbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:net\\io\\packetbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\mvvm\\model\\contactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:mvvm\\model\\contactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\themes\\chatitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:themes\\chatitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\themes\\messagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:themes\\messagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\mvvm\\model\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:mvvm\\model\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\themes\\contactcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:themes\\contactcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|d:\\dokumenty\\projects\\cs\\prochat\\prochatclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD270C1F-D747-4CA5-95A7-F95708D899C8}|ProChat.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,7 +58,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Core\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Core\\RelayCommand.cs",
+              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Core\\RelayCommand.cs",
+              "RelativeToolTip": "Core\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:08:35.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Server.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\Server.cs",
+              "RelativeDocumentMoniker": "Net\\Server.cs",
+              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\Server.cs",
+              "RelativeToolTip": "Net\\Server.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T06:12:40.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MessageBox.xaml",
+              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Themes\\MessageBox.xaml",
+              "RelativeDocumentMoniker": "Themes\\MessageBox.xaml",
+              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Themes\\MessageBox.xaml",
+              "RelativeToolTip": "Themes\\MessageBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T06:09:16.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T05:59:32.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatItem.xaml",
+              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Themes\\ChatItem.xaml",
+              "RelativeDocumentMoniker": "Themes\\ChatItem.xaml",
+              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Themes\\ChatItem.xaml",
+              "RelativeToolTip": "Themes\\ChatItem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T05:59:17.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MVVM\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\View\\MainWindow.xaml",
+              "RelativeToolTip": "MVVM\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T05:56:42.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactCard.xaml",
+              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Themes\\ContactCard.xaml",
+              "RelativeDocumentMoniker": "Themes\\ContactCard.xaml",
+              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Themes\\ContactCard.xaml",
+              "RelativeToolTip": "Themes\\ContactCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T05:54:31.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ContactModel.cs",
               "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\Model\\ContactModel.cs",
               "RelativeDocumentMoniker": "MVVM\\Model\\ContactModel.cs",
@@ -69,46 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainProgram.cs",
-              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\MainProgram.cs",
-              "RelativeDocumentMoniker": "..\\ProChatServer\\MainProgram.cs",
-              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\MainProgram.cs",
-              "RelativeToolTip": "..\\ProChatServer\\MainProgram.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:23:04.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Client.cs",
-              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\Client.cs",
-              "RelativeDocumentMoniker": "..\\ProChatServer\\Client.cs",
-              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatServer\\Client.cs",
-              "RelativeToolTip": "..\\ProChatServer\\Client.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwCsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:20:16.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Core\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Core\\RelayCommand.cs",
-              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Core\\RelayCommand.cs",
-              "RelativeToolTip": "Core\\RelayCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:15:06.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MessageModel.cs",
               "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\Model\\MessageModel.cs",
               "RelativeDocumentMoniker": "MVVM\\Model\\MessageModel.cs",
@@ -121,66 +170,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\MainViewModel.cs",
               "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "MVVM\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAwI4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T12:05:31.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MVVM\\View\\MainWindow.xaml",
-              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\MVVM\\View\\MainWindow.xaml",
-              "RelativeToolTip": "MVVM\\View\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T12:35:12.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PacketReader.cs",
-              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\IO\\PacketReader.cs",
-              "RelativeDocumentMoniker": "Net\\IO\\PacketReader.cs",
-              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\IO\\PacketReader.cs",
-              "RelativeToolTip": "Net\\IO\\PacketReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:04:18.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PacketBuilder.cs",
-              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\IO\\PacketBuilder.cs",
-              "RelativeDocumentMoniker": "Net\\IO\\PacketBuilder.cs",
-              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\IO\\PacketBuilder.cs",
-              "RelativeToolTip": "Net\\IO\\PacketBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:04:04.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Server.cs",
-              "DocumentMoniker": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\Server.cs",
-              "RelativeDocumentMoniker": "Net\\Server.cs",
-              "ToolTip": "D:\\Dokumenty\\projects\\CS\\ProChat\\ProChatClient\\Net\\Server.cs",
-              "RelativeToolTip": "Net\\Server.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAADwvz4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:02:39.347Z",
               "EditorCaption": ""
             }
           ]

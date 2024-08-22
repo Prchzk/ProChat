@@ -18,6 +18,7 @@ namespace ProChat.MVVM.ViewModel
 
         /* Commands */
         public RelayCommand ConnectToServerCommand { get; set; }
+        private bool bConnected = false;
         public RelayCommand SendCommand { get; set; }
 
         private ContactModel _selectedContact;
@@ -56,8 +57,10 @@ namespace ProChat.MVVM.ViewModel
             _server.userDisconnectEvent += RemoveUser;
 
             ConnectToServerCommand = new RelayCommand(o => _server.ConnectToServer(Username), o => !string.IsNullOrEmpty(Username));
+            
+            SendCommand = new RelayCommand(o => _server.SendMessageToServer(Message), o => bConnected/*!string.IsNullOrEmpty(Username)*/);
 
-            SendCommand = new RelayCommand(o => _server.SendMessageToServer(Message), o => !string.IsNullOrEmpty(Message));
+
 
             /*
             SendCommand = new RelayCommand(o =>
@@ -143,26 +146,30 @@ namespace ProChat.MVVM.ViewModel
         {
             var msg = _server.PacketReader.ReadMessage();
             //Application.Current.Dispatcher.Invoke(() => Messages.Add(msg));
-            Messages.Add(new MessageModel
+            Application.Current.Dispatcher.Invoke(() => Messages.Add(new MessageModel
             {
                 Message = msg,
-                FirstMessage = false
-            });
+                //FirstMessage = false
+            }));
 
             Message = "";
         }
 
         private void UserConnected()
         {
+            bConnected = false;
+            
             var user = new ContactModel
             {
                 Username = _server.PacketReader.ReadMessage(),
-                UID = _server.PacketReader.ReadMessage()
+                UID = _server.PacketReader.ReadMessage(),
+                Messages = Messages
             };
 
             if (!Contacts.Any(x => x.UID == user.UID))
             {
                 Application.Current.Dispatcher.Invoke(() => Contacts.Add(user));
+                bConnected = true;
             }
         }
     }

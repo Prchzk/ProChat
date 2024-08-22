@@ -85,12 +85,12 @@
                    Foreground="Gray"
                    Margin="8,0,0,0"/>
 
-            <ListView ItemsSource="{Binding Contacts}"
-                      SelectedItem="{Binding SelectedContact}"
+            <ListView ItemsSource="{Binding Contacts}"                     
                       Background="Transparent"
                       BorderThickness="0"
                       Grid.Row="1"
                       ItemContainerStyle="{StaticResource ContactCard}"/>
+                      <!--="{Binding SelectedContact}"-->
 
             <StackPanel Grid.Row="2"
                         Orientation="Horizontal"
@@ -104,6 +104,8 @@
                     <Button Height="20" Width="70"
                             Content="Connect"
                             Margin="10,0,0,0"
+                            Background="#292B2F"
+                            Foreground="Gray"
                             Command="{Binding ConnectToServerCommand}"/>
                 </StackPanel>
 
@@ -149,8 +151,8 @@
                     </StackPanel>
                 </Grid>
             </Border>
-            <!--změnit na Messages -> 41:11-->
-            <ListView ItemsSource="{Binding SelectedContact.Messages}"
+
+            <ListView ItemsSource="{Binding Messages}"
                       Background="Transparent"
                       BorderThickness="0"
                       ItemContainerStyle="{StaticResource ChatItem}"
@@ -173,8 +175,14 @@
                             HorizontalAlignment="Right"
                             Grid.Column="1"
                             Margin="0,0,16,0">
-                    <!--
-                    <Image Source="./Icons/plus.png"
+
+                    <Button Width="55" Height="40"
+                            Background="#292B2F"
+                            Content="Send"
+                            Foreground="Gray"
+                            Command="{Binding SendCommand}"/>
+
+                    <!--<Image Source="./Icons/plus.png"
                            Width="20" Height="20"
                            RenderOptions.BitmapScalingMode="Fant"
                            Margin="5,5,5,0"/>
@@ -182,8 +190,8 @@
                     <Image Source="./Icons/send.png"
                            Width="20" Height="20"
                            RenderOptions.BitmapScalingMode="Fant"
-                           Margin="5,5,16,0"/>
-                    -->
+                           Margin="5,5,16,0"/>-->
+
                 </StackPanel>
             </Grid>
 

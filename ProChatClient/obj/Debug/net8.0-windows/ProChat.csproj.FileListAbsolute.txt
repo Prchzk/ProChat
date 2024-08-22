@@ -55,9 +55,9 @@ D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.AssemblyInfoInputs.cache
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.AssemblyInfo.cs
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.csproj.CoreCompileInputs.cache
+D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.sourcelink.json
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.dll
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\refint\ProChat.dll
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.pdb
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.genruntimeconfig.cache
 D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ref\ProChat.dll
-D:\Dokumenty\projects\CS\ProChat\ProChatClient\obj\Debug\net8.0-windows\ProChat.sourcelink.json
